@@ -19,4 +19,6 @@ To run our tool you have to first `import` the `learnerTest.py` file <br>
 Then simply pass your classifier after fixing the hypeparameters through following: <br>
 ```learnerTest.func_main(model)``` <br>
 Assuming `model`contain your classifier. We have added some sample test files which you can directly use. Example usage:<br>
-```python DecisionTreeTest.py```
+```python DecisionTreeTest.py```<br>
+At the end *Tile* will print whether or not the given learning algorithm is balanced or not.
+
