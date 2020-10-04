@@ -1,4 +1,5 @@
 # TiLe
+[tool_logo](TileLogo.jpeg)
 Testing of learning algorithms.
 This repositiry contains the code to test a given Machine Learning algorithm for **balancedness** property. Given a machine learning algorithm, our tool can check whether it is using the training data in a balanced way.
 Till now, our testing framework is only limited to __scikit-learn__ library. Our testing framework is devloped based on the idea of metamorphic testing. You can learn more about our work by having a look at our [paper](https://ieeexplore.ieee.org/abstract/document/8730187). 
