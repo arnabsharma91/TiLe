@@ -6,7 +6,7 @@ Till now, our testing framework is only limited to __scikit-learn__ library. Our
 [Arnab Sharma](https://en.cs.uni-paderborn.de/sms/team/people/arnab-sharma), [Heike Wehrheim](https://en.cs.uni-paderborn.de/sms/team/people/heike-wehrheim)
 # Usage of TiLe
 In the beginning you have to set some parameters for our tool to run. There are essentially 4 parameters which you need to fix: TRAIN_RATIO, MAX_INPUT, ROW_PERM_PER, COL_PERM_PER.
-The first parameter indicates how much percentage of training data should be used as test data. MAX_INPUT indicates number of test data needs to be randomly generated. The third and the fourth parameters indicate the number of row and column permutation respectively, you would want the testing tool to consider. After fixing those paramters you are ready to run the tool.
+The first parameter indicates how much percentage of training data should be used as test data. MAX_INPUT indicates number of test data needs to be randomly generated. The third and the fourth parameters indicate the number of row and column permutation respectively, you would want the testing tool to consider. After fixing those paramters you are ready to run the tool.<br>
 To run our tool you have to first `import` the `learnerTest.py` file 
 *```from TrainEqCheck import learnerTest```
 Then simply pass your classifier after fixing the hypeparameters through following:
